@@ -55,11 +55,6 @@
     color: rgba(128, 128, 128, 0.73);
   }
 
-  footer .footerBelowHR {
-    display: flex;
-    justify-content: space-between;
-  }
-
   footer .footerBelowHR p {
     font-size: 0.8rem;
   }
