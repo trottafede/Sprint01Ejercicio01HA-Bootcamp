@@ -1,0 +1,201 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* LandingPages */
+
+  #HeaderExamples {
+    background-color: rgba(242, 246, 252, 1);
+  }
+
+  #HeaderExamples .LandingPagesTitle {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #HeaderExamples .LandingPagesTitle p {
+    color: grey;
+    margin: 20px 0;
+    font-size: 1.1rem;
+  }
+
+  #HeaderExamples .wrapper {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+  }
+
+  #HeaderExamples img {
+    height: 80%;
+    width: 90%;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+    border: 0.1px solid rgb(237, 226, 226);
+  }
+
+  #HeaderExamples img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* LandingPages */
+
+  #HeaderExamples {
+    background-color: rgba(242, 246, 252, 1);
+  }
+
+  #HeaderExamples .LandingPagesTitle {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #HeaderExamples .LandingPagesTitle p {
+    color: grey;
+    margin: 20px 0;
+    font-size: 1.1rem;
+  }
+
+  #HeaderExamples .wrapper {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+  }
+
+  #HeaderExamples img {
+    height: 80%;
+    width: 90%;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+    border: 0.1px solid rgb(237, 226, 226);
+  }
+
+  #HeaderExamples img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* LandingPages */
+
+  #HeaderExamples {
+    background-color: rgba(242, 246, 252, 1);
+  }
+
+  #HeaderExamples .LandingPagesTitle {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #HeaderExamples .LandingPagesTitle p {
+    color: grey;
+    margin: 20px 0;
+    font-size: 1.1rem;
+  }
+
+  #HeaderExamples .wrapper {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+  }
+
+  #HeaderExamples img {
+    height: 80%;
+    width: 90%;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+    border: 0.1px solid rgb(237, 226, 226);
+  }
+
+  #HeaderExamples img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* LandingPages */
+
+  #HeaderExamples {
+    background-color: rgba(242, 246, 252, 1);
+  }
+
+  #HeaderExamples .LandingPagesTitle {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #HeaderExamples .LandingPagesTitle p {
+    color: grey;
+    margin: 20px 0;
+    font-size: 1.1rem;
+  }
+
+  #HeaderExamples .wrapper {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+  }
+
+  #HeaderExamples img {
+    height: 70%;
+    width: 99%;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    border: 0.1px solid rgb(237, 226, 226);
+  }
+
+  #HeaderExamples img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* LandingPages */
+
+  #HeaderExamples {
+    background-color: rgba(242, 246, 252, 1);
+  }
+
+  #HeaderExamples .LandingPagesTitle {
+    text-align: center;
+    margin: 50px 0;
+  }
+
+  #HeaderExamples .LandingPagesTitle p {
+    color: grey;
+    margin: 20px 0;
+    font-size: 1.1rem;
+  }
+
+  #HeaderExamples .wrapper {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(80, 78, 78);
+  }
+
+  #HeaderExamples img {
+    height: 70%;
+    width: 99%;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    border: 0.1px solid rgb(237, 226, 226);
+  }
+
+  #HeaderExamples img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  }
+}

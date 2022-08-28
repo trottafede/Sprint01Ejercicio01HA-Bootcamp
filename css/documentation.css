@@ -1,0 +1,223 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #Documentation {
+    text-align: center;
+  }
+
+  #Documentation .titleOfDocumentation {
+    padding: 60px 0;
+  }
+
+  #Documentation .titleOfDocumentation h3 {
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+  }
+
+  #Documentation .titleOfDocumentation p {
+    color: rgb(166, 166, 166);
+    font-size: 1.1rem;
+  }
+
+  #Documentation .bigNumberOfDocumentation {
+    color: rgba(166, 166, 166, 0.605);
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Documentation .belowBigNumber {
+    font-weight: bold;
+  }
+
+  #Documentation .belowBelowBigNumber {
+    color: grey;
+  }
+
+  #Documentation .anchorOfDocumentation {
+    margin: 40px 0;
+  }
+
+  #Documentation .anchorOfDocumentation a {
+    padding: 10px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #Documentation {
+    text-align: center;
+  }
+
+  #Documentation .titleOfDocumentation {
+    padding: 60px 0;
+  }
+
+  #Documentation .titleOfDocumentation h3 {
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+  }
+
+  #Documentation .titleOfDocumentation p {
+    color: rgb(166, 166, 166);
+    font-size: 1.1rem;
+  }
+
+  #Documentation .bigNumberOfDocumentation {
+    color: rgba(166, 166, 166, 0.605);
+    font-size: 4.3rem;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Documentation .belowBigNumber {
+    font-weight: bold;
+  }
+
+  #Documentation .belowBelowBigNumber {
+    color: grey;
+  }
+
+  #Documentation .anchorOfDocumentation {
+    margin: 40px 0;
+  }
+
+  #Documentation .anchorOfDocumentation a {
+    padding: 10px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #Documentation {
+    text-align: center;
+  }
+
+  #Documentation .titleOfDocumentation {
+    padding: 60px 0;
+  }
+
+  #Documentation .titleOfDocumentation h3 {
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+  }
+
+  #Documentation .titleOfDocumentation p {
+    color: rgb(166, 166, 166);
+    font-size: 1.1rem;
+  }
+
+  #Documentation .bigNumberOfDocumentation {
+    color: rgba(166, 166, 166, 0.605);
+    font-size: 4.3rem;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Documentation .belowBigNumber {
+    font-weight: bold;
+  }
+
+  #Documentation .belowBelowBigNumber {
+    color: grey;
+  }
+
+  #Documentation .anchorOfDocumentation {
+    margin: 40px 0;
+  }
+
+  #Documentation .anchorOfDocumentation a {
+    padding: 10px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #Documentation {
+    text-align: center;
+  }
+
+  #Documentation .titleOfDocumentation {
+    padding: 60px 0;
+  }
+
+  #Documentation .titleOfDocumentation h3 {
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+  }
+
+  #Documentation .titleOfDocumentation p {
+    color: rgb(166, 166, 166);
+    font-size: 1.1rem;
+  }
+
+  #Documentation .bigNumberOfDocumentation {
+    color: rgba(166, 166, 166, 0.605);
+    font-size: 4.3rem;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Documentation .belowBigNumber {
+    font-weight: bold;
+  }
+
+  #Documentation .belowBelowBigNumber {
+    color: grey;
+  }
+
+  #Documentation .anchorOfDocumentation {
+    margin: 40px 0;
+  }
+
+  #Documentation .anchorOfDocumentation a {
+    padding: 10px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #Documentation {
+    text-align: center;
+  }
+
+  #Documentation .titleOfDocumentation {
+    padding: 60px 0;
+  }
+
+  #Documentation .titleOfDocumentation h3 {
+    color: rgb(49, 49, 49);
+    font-size: 1.5rem;
+  }
+
+  #Documentation .titleOfDocumentation p {
+    color: rgb(166, 166, 166);
+    font-size: 1.1rem;
+  }
+
+  #Documentation .bigNumberOfDocumentation {
+    color: rgba(166, 166, 166, 0.605);
+    font-size: 4.3rem;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+  }
+
+  #Documentation .belowBigNumber {
+    font-weight: bold;
+  }
+
+  #Documentation .belowBelowBigNumber {
+    color: grey;
+  }
+
+  #Documentation .anchorOfDocumentation {
+    margin: 40px 0;
+  }
+
+  #Documentation .anchorOfDocumentation a {
+    padding: 10px;
+  }
+}

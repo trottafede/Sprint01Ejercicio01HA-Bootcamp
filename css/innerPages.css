@@ -1,0 +1,231 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Inner Pages Section */
+  #InnerPages .titleOfInnerPages {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  #InnerPages .titleOfInnerPages h3 {
+    color: rgb(74, 74, 74);
+    font-size: 1.5rem;
+  }
+
+  #InnerPages .titleOfInnerPages p {
+    color: rgb(166, 166, 166);
+    font-size: 1.2rem;
+  }
+
+  #InnerPages ul {
+    margin-bottom: 35px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  }
+
+  #InnerPages h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+  }
+
+  #InnerPages ul li {
+    padding: 15px;
+    color: rgb(92, 91, 91);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #InnerPages ul li i {
+    color: grey;
+  }
+  #InnerPages ul li:hover {
+    background-color: rgba(237, 245, 255, 0.767);
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Inner Pages Section */
+  #InnerPages .titleOfInnerPages {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  #InnerPages .titleOfInnerPages h3 {
+    color: rgb(74, 74, 74);
+    font-size: 1.5rem;
+  }
+
+  #InnerPages .titleOfInnerPages p {
+    color: rgb(166, 166, 166);
+    font-size: 1.2rem;
+  }
+
+  #InnerPages ul {
+    margin-bottom: 35px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  }
+
+  #InnerPages h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+  }
+
+  #InnerPages ul li {
+    padding: 15px;
+    color: rgb(92, 91, 91);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #InnerPages ul li i {
+    color: grey;
+  }
+  #InnerPages ul li:hover {
+    background-color: rgba(237, 245, 255, 0.767);
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Inner Pages Section */
+  #InnerPages .titleOfInnerPages {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  #InnerPages .titleOfInnerPages h3 {
+    color: rgb(74, 74, 74);
+    font-size: 1.5rem;
+  }
+
+  #InnerPages .titleOfInnerPages p {
+    color: rgb(166, 166, 166);
+    font-size: 1.2rem;
+  }
+
+  #InnerPages ul {
+    margin-bottom: 35px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  }
+
+  #InnerPages h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+  }
+
+  #InnerPages ul li {
+    padding: 15px;
+    color: rgb(92, 91, 91);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #InnerPages ul li i {
+    color: grey;
+  }
+  #InnerPages ul li:hover {
+    background-color: rgba(237, 245, 255, 0.767);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Inner Pages Section */
+  #InnerPages .titleOfInnerPages {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  #InnerPages .titleOfInnerPages h3 {
+    color: rgb(74, 74, 74);
+    font-size: 1.5rem;
+  }
+
+  #InnerPages .titleOfInnerPages p {
+    color: rgb(166, 166, 166);
+    font-size: 1.2rem;
+  }
+
+  #InnerPages .col-lg-4 {
+    margin-bottom: 35px;
+  }
+
+  #InnerPages ul {
+    margin-bottom: 35px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  }
+
+  #InnerPages h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+  }
+
+  #InnerPages ul li {
+    padding: 15px;
+    color: rgb(92, 91, 91);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #InnerPages ul li i {
+    color: grey;
+  }
+  #InnerPages ul li:hover {
+    background-color: rgba(237, 245, 255, 0.767);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Inner Pages Section */
+  #InnerPages .titleOfInnerPages {
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  #InnerPages .titleOfInnerPages h3 {
+    color: rgb(74, 74, 74);
+    font-size: 1.5rem;
+  }
+
+  #InnerPages .titleOfInnerPages p {
+    color: rgb(166, 166, 166);
+    font-size: 1.2rem;
+  }
+
+  #InnerPages .col-lg-4 {
+    margin-bottom: 35px;
+  }
+
+  #InnerPages ul {
+    margin-bottom: 35px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+  }
+
+  #InnerPages h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    margin-bottom: 15px;
+  }
+
+  #InnerPages ul li {
+    padding: 15px;
+    color: rgb(92, 91, 91);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #InnerPages ul li i {
+    color: grey;
+  }
+  #InnerPages ul li:hover {
+    background-color: rgba(237, 245, 255, 0.767);
+  }
+}
