@@ -55,6 +55,29 @@
   }
 }
 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  header #landingsDropdown {
+    width: 500px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  header #landingsDropdown {
+    width: 800px;
+    left: -450px !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  header #landingsDropdown #landingIMG {
+    background-image: url("https://sb-ui-kit-pro.startbootstrap.com/assets/img/backgrounds/bg-dropdown-xl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
 header nav {
   padding: 20px 0 !important;
   background-color: #fff;
@@ -82,25 +105,10 @@ header .separationFromSpan {
   margin-right: 60px;
 }
 
-header #myDropdownMenu {
+/* header #myDropdownMenu {
   left: auto;
   right: 0;
   margin: 0;
   padding: 0;
   width: 300px;
-}
-
-header #myDropdownMenu p {
-  margin: 0;
-  padding: 0;
-  font-size: 0.9rem;
-}
-
-header .documentationItems {
-  padding: 0;
-}
-
-header hr {
-  padding: 0;
-  margin: 0;
-}
+} */
