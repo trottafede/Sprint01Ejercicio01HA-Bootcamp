@@ -4,25 +4,9 @@
     padding: 30px;
     margin-bottom: 40px;
   }
-  header nav {
-    padding: 20px !important;
-  }
-  header nav #title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(95, 125, 236);
-  }
 
-  header nav ul li {
-    padding: 10px;
-  }
-  header nav ul li a {
-    padding-right: 10px !important;
-    font-weight: 650 !important;
-  }
-
-  header #headerTextAndIMG {
-    margin-top: 50px;
+  header .separationFromSpan {
+    margin-right: 0;
   }
 
   header #headerTextAndIMG h1 {
@@ -48,27 +32,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  header nav {
-    padding: 20px !important;
+  header .separationFromSpan {
+    margin-right: 0;
   }
-  header nav #title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(95, 125, 236);
-  }
-
-  header nav ul li {
-    padding: 10px;
-  }
-  header nav ul li a {
-    padding-right: 10px !important;
-    font-weight: 650 !important;
-  }
-
-  header #headerTextAndIMG {
-    margin-top: 50px;
-  }
-
   header #headerTextAndIMG h1 {
     margin-bottom: 30px;
   }
@@ -84,87 +50,57 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  header nav {
-    padding: 20px !important;
-  }
-  header nav #title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(95, 125, 236);
-  }
-
-  header nav ul li {
-    padding: 10px;
-  }
-  header nav ul li a {
-    padding-right: 10px !important;
-    font-weight: 650 !important;
-  }
-
-  header #headerTextAndIMG {
-    margin-top: 50px;
-  }
-  header .separationFromSpan {
-    margin-right: 60px;
-  }
-
   header img {
     display: none;
   }
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  header nav {
-    padding: 20px !important;
-  }
-  header nav #title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(95, 125, 236);
-  }
-
-  header nav ul li {
-    padding: 10px;
-  }
-  header nav ul li a {
-    padding-right: 10px !important;
-    font-weight: 650 !important;
-  }
-
-  header #headerTextAndIMG {
-    margin-top: 50px;
-  }
-  header .separationFromSpan {
-    margin-right: 60px;
-  }
+header nav {
+  padding: 20px 0 !important;
+  background-color: #fff;
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  /* Header */
+header nav #title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(95, 125, 236);
+}
 
-  header nav {
-    padding: 20px !important;
-  }
-  header nav #title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(95, 125, 236);
-  }
+header nav ul li {
+  padding: 10px;
+}
 
-  header nav ul li {
-    padding: 10px;
-  }
-  header nav ul li a {
-    padding-right: 10px !important;
-    font-weight: 650 !important;
-  }
+header nav ul li a {
+  padding-right: 10px !important;
+  font-weight: 650 !important;
+}
 
-  header #headerTextAndIMG {
-    margin-top: 50px;
-  }
-  header .separationFromSpan {
-    margin-right: 60px;
-  }
+header #headerTextAndIMG {
+  margin-top: 50px;
+}
+header .separationFromSpan {
+  margin-right: 60px;
+}
+
+header #myDropdownMenu {
+  left: auto;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+header #myDropdownMenu p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+header .documentationItems {
+  padding: 0;
+}
+
+header hr {
+  padding: 0;
+  margin: 0;
 }

@@ -32,7 +32,7 @@
   <body>
     <header>
       <!-- header here -->
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
           <a id="title" class="navbar-brand" href="#">SB UI Kit Pro</a>
           <button
@@ -47,6 +47,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
+            <!--  -->
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -55,15 +56,122 @@
                 <a class="nav-link" href="#">Landings ></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Pages ></a>
+                <a class="nav-link" href="#">Pages</a>
               </li>
-              <li class="nav-item separationFromSpan">
-                <a class="nav-link" href="#">Documentation ></a>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle separationFromSpan"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Documentation
+                </a>
+
+                <div id="myDropdownMenu" class="dropdown-menu">
+                  <div class="row">
+                    <!-- first  icon -->
+                    <div class="col-lg-12 documentationItems">
+                      <div class="row">
+                        <div class="col-lg-2 d-flex justify-content-center">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-book-open"
+                          >
+                            <path
+                              d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"
+                            ></path>
+                            <path
+                              d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="col-lg-10">
+                          <p>Documentation</p>
+                          <p>Usage instructions and reference</p>
+                        </div>
+                        <hr />
+                      </div>
+                    </div>
+
+                    <!-- second icon -->
+
+                    <div class="col-lg-12 documentationItems">
+                      <div class="row">
+                        <div class="col-lg-2 d-flex justify-content-center">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-code"
+                          >
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                          </svg>
+                        </div>
+                        <div class="col-lg-10">
+                          <p>Components</p>
+                          <p>Code snippets and reference</p>
+                        </div>
+                        <hr />
+                      </div>
+                    </div>
+
+                    <!-- third icon -->
+
+                    <div class="col-lg-12 documentationItems">
+                      <div class="row">
+                        <div class="col-lg-2 d-flex justify-content-center">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="feather feather-file-text"
+                          >
+                            <path
+                              d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                            ></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                          </svg>
+                        </div>
+                        <div class="col-lg-10">
+                          <p>Changelog</p>
+                          <p>Updated and changes</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
                 <span class="btn btn-primary" href="#">Buy Now -></span>
               </li>
             </ul>
+            <!--  -->
           </div>
         </div>
       </nav>
@@ -111,84 +219,84 @@
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 1 - Multipurpose</p>
-            <img src="./img/img1.png" alt="img1" />
+            <img class="img-fluid" src="./img/img1.png" alt="img1" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 2 - Mobile App</p>
-            <img src="./img/img2.png" alt="img2" />
+            <img class="img-fluid" src="./img/img2.png" alt="img2" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 3 - Desktop App</p>
-            <img src="./img/img3.png" alt="img3" />
+            <img class="img-fluid" src="./img/img3.png" alt="img3" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 4 - Agency</p>
-            <img src="./img/img4.png" alt="img4" />
+            <img class="img-fluid" src="./img/img4.png" alt="img4" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 5 - Lead Capture</p>
-            <img src="./img/img5.png" alt="img5" />
+            <img class="img-fluid" src="./img/img5.png" alt="img5" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 6 - Press</p>
-            <img src="./img/img6.png" alt="img6" />
+            <img class="img-fluid" src="./img/img6.png" alt="img6" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 7 - Directory</p>
-            <img src="./img/img7.png" alt="img7" />
+            <img class="img-fluid" src="./img/img7.png" alt="img7" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 8 - Rental</p>
-            <img src="./img/img8.png" alt="img8" />
+            <img class="img-fluid" src="./img/img8.png" alt="img8" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 9 - Real Estate</p>
-            <img src="./img/img9.png" alt="img9" />
+            <img class="img-fluid" src="./img/img9.png" alt="img9" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 10 - Classfields</p>
-            <img src="./img/img10.png" alt="img10" />
+            <img class="img-fluid" src="./img/img10.png" alt="img10" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 11 - Resume</p>
-            <img src="./img/img11.png" alt="img11" />
+            <img class="img-fluid" src="./img/img11.png" alt="img11" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 12 - Portfolio</p>
-            <img src="./img/img12.png" alt="img12" />
+            <img class="img-fluid" src="./img/img12.png" alt="img12" />
           </div>
         </div>
       </div>
@@ -318,42 +426,42 @@
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 1 - Basic</p>
-            <img src="./img/HeaderExamples1.png" alt="img3" />
+            <img class="img-fluid" src="./img/HeaderExamples1.png" alt="img3" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 2 - Basic (Signup)</p>
-            <img src="./img/HeaderExamples2.png" alt="img4" />
+            <img class="img-fluid" src="./img/HeaderExamples2.png" alt="img4" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 3 - Graphic</p>
-            <img src="./img/HeaderExamples3.png" alt="img5" />
+            <img class="img-fluid" src="./img/HeaderExamples3.png" alt="img5" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 4 - Graphic (Signup)</p>
-            <img src="./img/HeaderExamples4.png" alt="img6" />
+            <img class="img-fluid" src="./img/HeaderExamples4.png" alt="img6" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 5 - Inner Page</p>
-            <img src="./img/HeaderExamples5.png" alt="img7" />
+            <img class="img-fluid" src="./img/HeaderExamples5.png" alt="img7" />
           </div>
 
           <div
             class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 wrapper"
           >
             <p>Demo 6 - Nav Only</p>
-            <img src="./img/HeaderExamples6.png" alt="img8" />
+            <img class="img-fluid" src="./img/HeaderExamples6.png" alt="img8" />
           </div>
         </div>
       </div>
