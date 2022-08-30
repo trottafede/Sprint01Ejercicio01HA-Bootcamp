@@ -1,3 +1,87 @@
+header nav {
+  padding: 20px 0 !important;
+  background-color: #fff;
+}
+
+header nav #title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(95, 125, 236);
+}
+
+header nav ul li a {
+  padding-right: 30px !important;
+  font-weight: 650 !important;
+}
+
+header #headerTextAndIMG {
+  margin-top: 50px;
+}
+header .separationFromSpan {
+  margin-right: 60px;
+}
+
+header #landingsDropdown {
+  box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+
+header #landingsDropdown #landingIMG {
+  display: none;
+}
+
+header #landingsDropdown h5 {
+  color: blue;
+  font-size: 0.97rem;
+  font-weight: bold;
+}
+
+header #landingsDropdown .col-lg-6 p {
+  font-size: 0.83rem;
+}
+
+.myWave {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.myOwnPadding {
+  padding-top: 100px;
+}
+
+.myWave svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.myWave .shape-fill {
+  fill: #f2f6fc;
+}
+
+/* 2 wave */
+.myWave2 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.myWave2 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 74px;
+}
+
+.myWave2 .shape-fill {
+  fill: #f2f6fc;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   header {
@@ -75,40 +159,8 @@
     background-image: url("https://sb-ui-kit-pro.startbootstrap.com/assets/img/backgrounds/bg-dropdown-xl.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
 }
-
-header nav {
-  padding: 20px 0 !important;
-  background-color: #fff;
-}
-
-header nav #title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: rgb(95, 125, 236);
-}
-
-header nav ul li {
-  padding: 10px;
-}
-
-header nav ul li a {
-  padding-right: 10px !important;
-  font-weight: 650 !important;
-}
-
-header #headerTextAndIMG {
-  margin-top: 50px;
-}
-header .separationFromSpan {
-  margin-right: 60px;
-}
-
-/* header #myDropdownMenu {
-  left: auto;
-  right: 0;
-  margin: 0;
-  padding: 0;
-  width: 300px;
-} */
