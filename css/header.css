@@ -85,8 +85,7 @@ header #landingsDropdown .col-lg-6 p {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   header {
-    padding: 30px;
-    margin-bottom: 40px;
+    padding: 0 30px;
   }
 
   header .separationFromSpan {
