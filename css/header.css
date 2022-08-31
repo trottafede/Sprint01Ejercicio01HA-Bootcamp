@@ -82,6 +82,21 @@ header #landingsDropdown .col-lg-6 p {
   fill: #f2f6fc;
 }
 
+#headerTextAndIMG {
+  animation: slide-top 1.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-top {
+  0% {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   header {
