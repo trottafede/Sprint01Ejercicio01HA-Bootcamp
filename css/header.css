@@ -39,16 +39,28 @@ header #landingsDropdown .col-lg-6 p {
   font-size: 0.83rem;
 }
 
+/* Flechita que baja en el dropdown */
+.rotate1 {
+  margin-left: 6px;
+  transition: 0.5s;
+  font-size: 0.76rem;
+}
+.nav-link[aria-expanded="true"] .rotate1 {
+  transform: rotate(90deg);
+}
+
+/* 1 wave */
+
+.myOwnPadding {
+  padding-top: 100px;
+}
+
 .myWave {
   bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-}
-
-.myOwnPadding {
-  padding-top: 100px;
 }
 
 .myWave svg {
@@ -82,6 +94,7 @@ header #landingsDropdown .col-lg-6 p {
   fill: #f2f6fc;
 }
 
+/* Animacion */
 #headerTextAndIMG {
   animation: slide-top 1.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -97,6 +110,7 @@ header #landingsDropdown .col-lg-6 p {
     opacity: 1;
   }
 }
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   header {
